@@ -1,0 +1,284 @@
+<body style="overflow-x: hidden;background-color: #000000;" oncontextmenu="return false" ondragstart="return false" onselectstart="return false;">
+    <!--세션 유지 -->
+    <iframe id="session_iframe" src="/bottom/sitemap.html" style="display: none;"></iframe>
+    <!--세션 유지 -->
+    <!--강좌 수강 정보 로그 처리 -->
+    <iframe id="log_iframe" src="/common/checkCourse.jsp?publishId=949&amp;courseId=817&amp;lectureId=42316&amp;movieId=11666" style="display: none;"></iframe>
+
+    <table border="0" cellpadding="0" cellspacing="0" width="1240" style="background-color:#000000;">
+      <tbody><tr>
+        <td width="980" valign="top">
+          
+  
+          <!-- 동영상 영역  -->
+          <div id="container" style="width: 980px; height: 680px;">
+  
+            <div id="maincontent" style="background-color: black;">
+              <div id="video" class="wrapper_video" style="background-color: black; background-repeat: no-repeat; background-position: center center; height: 618px;">
+              <div id="video-nplayer-1-msg"></div><video class="video-js vjs-default-skin" style="visibility: visible;" id="video-nplayer-1" width="100%" height="100%" preload="" ondblclick="player.setFullscreen(!player.getFullscreen());"><source src="http://cdnplayer.cdnetworks.com:8282/cddr_streaming?url=http%253A%252F%252Fvod.eton-school.com%252Fjayeongye%252Fscience%252Fknj%252F19%252F817%252F01.mp4&amp;param=/v2skpdovNkBPkfx2yd10nKULKVu9PIGGAgosraNn+SIhoAfD5HzYB5GFP9obfR7k3Bzw74atvcXJLF4+rpMmwPvvG28H6/6xAJ5DcP4q9SqPoXvYcbbYEVikEOXVt2TirQE0jsSy8Pp0eRfnuKpUfewI0PjkgyaObzDA6IXg/7kb8tjaYdt0B8o3BA8ntq+wmXkPW9RcDIfrvodPEscDQF0hBxSEpezRHXA7uECJ8q9s2mHXuSZQJE2TKe2dTS7aVF/1WlcPmr8WJK4VGbOPTRBMzA2NkU1Nn0="></video></div>
+  
+              <div class="wrapper_foot" style="user-select: none;">
+                <div class="NPlyaer_skin01">
+                  <div class="area_seek">
+                    <div class="track_back">
+                      <div class="track_seekBtn" style="left: 0%;">
+                        <a class="btn_common btn_seek"><img src="images/blank.gif" width="100%" height="100%" border="0"></a>
+                      </div>
+                      <div class="track_repeatBtnA" style="left: 0%; display: none;">
+                        <a class="btn_common btn_repeatSet"><img src="images/blank.gif" width="100%" height="100%" border="0"></a>
+                      </div>
+                      <div class="track_repeatBtnB" style="left: 100%; display: none;">
+                        <a class="btn_common btn_repeatSet"><img src="images/blank.gif" width="100%" height="100%" border="0"></a>
+                      </div>
+                      <div class="track_repeat" style="left: 0%; width: 100%; display: none;"></div>
+                      <div class="track_current" style="width: 0%;"></div>
+                    </div>
+                  </div>
+                  <div class="area_control">
+                    <div class="contro_l">
+                      <div class="control_play">
+                        <a class="btn_common btn_play"></a>
+                      </div>
+                      <div class="control_text_status">Opened</div>
+                      <div class="control_text_time">
+                        <strong id="text_currentTime">00:00:00</strong> / <span id="text_duration">00:45:13</span>
+                      </div>
+                    </div>
+                    <div class="contro_r">
+                      <div style="float: right;">
+                        <input type="checkbox" id="pinned" name="pinned" style="display: none;">
+                        <div class="control_pin">
+                          <a class="btn_common btn_pinOff" onclick="jQuery('#pinned').attr('checked', true);$('.btn_pinOff').hide();$('.btn_pinOn').show();"></a><a class="btn_common btn_pinOn" style="display: none;" onclick="jQuery('#pinned').attr('checked', false);$('.btn_pinOn').hide();$('.btn_pinOff').show();"></a>
+                        </div>
+                      </div>
+                      <div class="control_volume">
+                        <div class="sound_btn">
+                          <a class="btn_common btn_sound"></a>
+                        </div>
+                        <div class="sound_track_back">
+                          <div class="sound_track_cur" style="width: 100%;">
+                            <img src="images/blank.gif" width="100%" height="100%" border="0">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="control_fullScr">
+                        <a class="btn_common btn_fullScr"></a>
+                      </div>
+                      <div class="control_repeat">
+                        <a class="btn_common btn_repeat"></a>
+                      </div>
+                      <div class="control_bar"></div>
+                      <div class="control_speed">
+                        <ul>
+                          <li><a class="btn_common btn_s06"></a></li>
+                          <li><a class="btn_common btn_s07_dot"></a></li>
+                          <li><a class="btn_common btn_s08"></a></li>
+                          <li><a class="btn_common btn_s09_dot"></a></li>
+                          <li><a class="btn_common btn_s10"></a></li>
+                          <li><a class="btn_common btn_s11_dot"></a></li>
+                          <li><a class="btn_common btn_s12"></a></li>
+                          <li><a class="btn_common btn_s13_dot"></a></li>
+                          <li><a class="btn_common btn_s14"></a></li>
+                          <li><a class="btn_common btn_s15_dot_cur"></a></li>
+                          <li><a class="btn_common btn_s16"></a></li>
+                          <li><a class="btn_common btn_s17_dot"></a></li>
+                          <li><a class="btn_common btn_s18"></a></li>
+                          <li><a class="btn_common btn_s19_dot"></a></li>
+                          <li><a class="btn_common btn_s20"></a></li>
+                          <!-- _cur 을 붙이면 현재 스피드 체크 -->
+                        </ul>
+                      </div>
+                      <div class="control_bar"></div>
+                      <div class="control_seek">
+                        <ul>
+                          <li><a class="btn_common btn_seekPrev"></a></li>
+                          <li class="inputArea"><input type="text" class="input_setSeekTime" value="30"></li>
+                          <li><a class="btn_common btn_seekNext"></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- context menu START -->
+              <div class="np-contextmenu np-popup np-vheight" data-enable="true" style="display: none;">
+                <div class="np-panel np-vheight">
+                  <div class="np-panel-menu np-vheight">
+  
+                    <div class="np-menuitem np-menuitem-btnplay" tabindex="0">
+                      <div class="np-menuitem-label">재생</div>
+                      <div class="np-menuitem-content">&nbsp;</div>
+                    </div>
+  
+                    <div class="np-menuitem np-menuitem-btnpause" tabindex="0">
+                      <div class="np-menuitem-label">일시 정지</div>
+                      <div class="np-menuitem-content">&nbsp;</div>
+                    </div>
+  
+                    <div class="np-menuitem np-menuitem-btnfullscreen" tabindex="0">
+                      <div class="np-menuitem-label">전체 화면</div>
+                      <div class="np-menuitem-content">&nbsp;</div>
+                    </div>
+  
+                    <div class="np-menuitem np-menuitem-btnnormalscreen" tabindex="0">
+                      <div class="np-menuitem-label">일반 화면</div>
+                      <div class="np-menuitem-content">&nbsp;</div>
+                    </div>
+  
+                    <div class="np-menuitem np-menuitem-subtitle np-menuitem-subtitle-show" tabindex="0">
+                      <div class="np-menuitem-label">자막</div>
+                      <div class="np-menuitem-content">&nbsp;</div>
+                    </div>
+  
+                    <div class="np-menuitem np-menuitem-subtitle np-menuitem-subtitle-hide" tabindex="0">
+                      <div class="np-menuitem-label">자막</div>
+                      <div class="np-menuitem-content">&nbsp;✔</div>
+                    </div>
+                  </div>
+  
+                </div>
+              </div>
+            </div>
+  
+          </div>
+          <!-- 동영상 영역  -->
+  
+        </td>
+        <td style="width:13px;background-color: #000000;">
+        </td>
+        
+      </tr>
+    </tbody></table>
+  
+    <script type="text/javascript" src="js/jquery-1.5.2.min.js"></script>
+    <script type="text/javascript" src="js/nplayer_conf.js"></script>
+    <script type="text/javascript" src="js/nplayer.js"></script>
+    <script type="text/javascript" src="js/nplayer_ui.js"></script>
+    <script type="text/javascript" src="js/cdnproxy.js"></script>
+    <script type="text/javascript">
+      //재생할 미디어 컨텐츠 경로(File URL) 설정
+      //http://서비스도메인명/게시지점/폴더명/파일명
+      var fileURL = 'http://vod.eton-school.com/jayeongye/science/knj/19/817/01.mp4';
+      var prefix = 'http://vod.eton-school.com';
+      if (fileURL.indexOf(prefix) == 0) {
+        var path = fileURL.substring(prefix.length);
+        path = path.replace('//', '/');
+      }
+        fileURL = prefix + path;
+  
+      var player;
+      $(document).ready(function() {
+        $(window).resize();
+        player = new NPlayer("video", {
+          controlBox : "nplayer_control.html",
+          visible : false,
+          mode : "html5"
+        //autoplay: false
+        });
+        initNPlayerUI(player);
+  
+        player.bindEvent("Ready", function() {
+          setSecurePage(false);
+          proxy_init(function() {
+            //1. video start set
+            setPlayerStart(true);
+            //2. nplayer instance set     
+            setNPlayer(player);
+            //4. media info set
+  
+            mygentAuthCall(function(genkey) {
+              setMediaInfo(fileURL, genkey);
+  
+              url = getMediaURL(false);
+              player.open({
+                "URL" : encodeURI(url)
+              });
+            }, '/v2skpdovNkBPkfx2yd10nKULKVu9PIGGAgosraNn+SIhoAfD5HzYB5GFP9obfR7k3Bzw74atvcXJLF4+rpMmwPvvG28H6/6xAJ5DcP4q9SqPoXvYcbbYEVikEOXVt2TirQE0jsSy8Pp0eRfnuKpUfewI0PjkgyaObzDA6IXg/7kb8tjaYdt0B8o3BA8ntq+wmXkPW9RcDIfrvodPEscDW9tX2tleT1qYXk=');
+  
+          }, indicateInstall, indicateUpdate);
+        });
+  
+        player.bindEvent("OpenStateChanged", function(state) {
+          switch (state) {
+          case NPlayer.OpenState.Opened:
+            player.setVisible(true);
+            starthtml5State();
+            break;
+          case NPlayer.OpenState.Closed:
+            Stophtml5State(NPlayer.OpenState.Closed);
+            break;
+          }
+        });
+        player.bindEvent("PlayStateChanged", function(state) {
+          switch (state) {
+          case NPlayer.PlayState.Playing:
+            player.setVisible(true);
+            break;
+  
+          case NPlayer.PlayState.Stopped:
+            player.setVisible(false);
+            break;
+  
+          case NPlayer.PlayState.Paused:
+            player.setVisible(true);
+            break;
+          }
+        });
+  
+        player.bindEvent("Error", function(ec) {
+          $("#video").css("background-image", "block");
+          callErrorState();
+        });
+  
+        player.bindEvent("PlaybackCompleted", function() {
+          Stophtml5State(NPlayer.OpenState.Closed);
+        });
+  
+        player.bindEvent("PlaybackPositionChanging", function(time) {
+          //alert("time: " +time); 
+        });
+  
+      });
+  
+      $(window).resize(function() {
+        var container = $("#container");
+        if (player && !!player.getFullscreen()) {
+          console.log("Resize for fullscreem");
+          $("#video").height($(window).height() - $(".wrapper_foot").height());
+        } else {
+          console.log("Resize for normal screem");
+          $("#video").height($(container).height() - $(".wrapper_foot").height());
+        }
+      });
+    </script>
+  
+    <script>
+      $(window).load(function () {
+        setInterval(function() {
+          $('#session_iframe')[0].contentWindow.history.go(0);
+        }, 1000 * 60);
+      });
+    </script>
+  
+    
+  
+  
+  <!-- 구글 애널리틱스 시작 -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  
+    ga('create', 'UA-64550006-1', 'auto');
+    ga('send', 'pageview');
+  
+  </script>
+  <!-- 구글 애널리틱스 마침 -->
+  
+  
+  
+  
+  
+  
+  </body>

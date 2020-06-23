@@ -1,0 +1,28 @@
+####웹서버 업로드 완료####
+/main/main.jsp
+- 하단부 학습지원센터 이미지 z-index 올려서 클릭이 부분적으로만 되는거 수정
+
+/main/mobile.jsp
+- 페이지 추가
+- 모바일버전 안내 페이지
+
+/main/kakao.jsp
+- 내부에서 자체적으로 css 잡던거 삭제
+
+/WEB-INF/decorators.xml
+- /main/mobile.jsp 추가
+
+/WEB-INF/decorator/highschool_publish_decorator.jsp
+/WEB-INF/decorator/highschool_middle_decorator.jsp
+/WEB-INF/decorator/highschool_free_decorator.jsp
+/WEB-INF/decorator/highschool_free2019_decorator.jsp
+=> 좌측 메뉴 아래쪽에 카톡/모바일/온라인문의 배너에서 모바일 이용안내 링크 수정
+
+view_200318.css
+-> 겹치는부분 없도록 css 수정
+
+####로컬 테스트 서버 구현####
+
+
+####기타####
+백엔드 - 자연계에듀 이튼 - 공지사항 자바 널포인터 에러 수정

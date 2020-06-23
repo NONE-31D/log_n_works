@@ -1,0 +1,74 @@
+public String getD() { return d;}
+public void setD(String d) {this.d = d;}
+public String getLogin_id() { return login_id;}
+public void setLogin_id(String login_id) {this.login_id = login_id;}
+public String getPassword() { return password;}
+public void setPassword(String password) {this.password = password;}
+public String get_password() { return _password;}
+public void set_password(String _password) {this._password = _password;}
+public String getType() { return type;}
+public void setType(String type) {this.type = type;}
+public String getName() { return name;}
+public void setName(String name) {this.name = name;}
+public String getBirthday() { return birthday;}
+public void setBirthday(String birthday) {this.birthday = birthday;}
+public String getSsn() { return ssn;}
+public void setSsn(String ssn) {this.ssn = ssn;}
+public String get_ssn() { return _ssn;}
+public void set_ssn(String _ssn) {this._ssn = _ssn;}
+public String getEmail() { return email;}
+public void setEmail(String email) {this.email = email;}
+public String getZipcode() { return zipcode;}
+public void setZipcode(String zipcode) {this.zipcode = zipcode;}
+public String getWide_addr() { return wide_addr;}
+public void setWide_addr(String wide_addr) {this.wide_addr = wide_addr;}
+public String getLocal_addr() { return local_addr;}
+public void setLocal_addr(String local_addr) {this.local_addr = local_addr;}
+public String getTel() { return tel;}
+public void setTel(String tel) {this.tel = tel;}
+public String getMobile() { return mobile;}
+public void setMobile(String mobile) {this.mobile = mobile;}
+public String getMember_key() { return member_key;}
+public void setMember_key(String member_key) {this.member_key = member_key;}
+public String getRecognize() { return recognize;}
+public void setRecognize(String recognize) {this.recognize = recognize;}
+public String getReceive_email() { return receive_email;}
+public void setReceive_email(String receive_email) {this.receive_email = receive_email;}
+public String getReceive_sms() { return receive_sms;}
+public void setReceive_sms(String receive_sms) {this.receive_sms = receive_sms;}
+public String getEmoney() { return emoney;}
+public void setEmoney(String emoney) {this.emoney = emoney;}
+public String getInsert_date() { return insert_date;}
+public void setInsert_date(String insert_date) {this.insert_date = insert_date;}
+public String getConnect_date() { return connect_date;}
+public void setConnect_date(String connect_date) {this.connect_date = connect_date;}
+public String getParent_id() { return parent_id;}
+public void setParent_id(String parent_id) {this.parent_id = parent_id;}
+public String getStudent_no() { return student_no;}
+public void setStudent_no(String student_no) {this.student_no = student_no;}
+public String getSchool() { return school;}
+public void setSchool(String school) {this.school = school;}
+public String getSchool_name() { return school_name;}
+public void setSchool_name(String school_name) {this.school_name = school_name;}
+public String getGrade() { return grade;}
+public void setGrade(String grade) {this.grade = grade;}
+public String getKind() { return kind;}
+public void setKind(String kind) {this.kind = kind;}
+public String getParent_name() { return parent_name;}
+public void setParent_name(String parent_name) {this.parent_name = parent_name;}
+public String getParent_zipcode() { return parent_zipcode;}
+public void setParent_zipcode(String parent_zipcode) {this.parent_zipcode = parent_zipcode;}
+public String getParent_wide_addr() { return parent_wide_addr;}
+public void setParent_wide_addr(String parent_wide_addr) {this.parent_wide_addr = parent_wide_addr;}
+public String getParent_local_addr() { return parent_local_addr;}
+public void setParent_local_addr(String parent_local_addr) {this.parent_local_addr = parent_local_addr;}
+public String getParent_tel() { return parent_tel;}
+public void setParent_tel(String parent_tel) {this.parent_tel = parent_tel;}
+public String getIs_withdraw() { return is_withdraw;}
+public void setIs_withdraw(String is_withdraw) {this.is_withdraw = is_withdraw;}
+public String getWithdraw_reason() { return withdraw_reason;}
+public void setWithdraw_reason(String withdraw_reason) {this.withdraw_reason = withdraw_reason;}
+public String getPmp_serial_no() { return pmp_serial_no;}
+public void setPmp_serial_no(String pmp_serial_no) {this.pmp_serial_no = pmp_serial_no;}
+public String getCampus() { return campus;}
+public void setCampus(String campus) {this.campus = campus;}

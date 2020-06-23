@@ -1,0 +1,15 @@
+####웹서버 업로드 완료####
+
+_right_banner.jsp
+- 이미지 수정
+- 이미지 수정에 따른 map 수정 후 링크 처리
+
+
+/highschool/main/main.jsp
+- 하단부 과목별 패키지 슬라이더 생성
+- 이미지별 강좌로 하이퍼링크 연결
+
+
+####로컬 테스트 서버 구현####
+/highschool/main/main.jsp
+- center 슬릭과 나머지 슬릭의 여백 조정 

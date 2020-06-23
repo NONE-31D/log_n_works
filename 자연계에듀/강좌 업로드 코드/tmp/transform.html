@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    div:first-child {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      animation-name: move, fadeOut, changeColor;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+    }
+
+    div:last-child{
+        position: absolute;
+        background: blue;
+        width: 100px;
+        height: 100px;
+        animation-duration: 0.9s;
+        animation-timing-function: ease-out;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode: both;
+        animation-play-state: running;
+        animation-name: move, bounceIn;
+    }
+
+    @keyframes bounceIn {
+    from,
+    20%,
+    40%,
+    60%,
+    80%,
+    to {
+        -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(0.3, 0.3, 0.3);
+        transform: scale3d(0.3, 0.3, 0.3);
+        left: 20px;
+        
+    }
+
+    20% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1);
+        transform: scale3d(1.4, 1.4, 1.4);
+        left: 40px;
+        top: 100px;
+    }
+
+    40% {
+        -webkit-transform: scale3d(0.9, 0.9, 0.9);
+        transform: scale3d(0.9, 0.9, 0.9);
+        left: 50px;
+        top: 40px;
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: scale3d(1.03, 1.03, 1.03);
+        transform: scale3d(1.03, 1.03, 1.03);
+        left: 60px;
+        top: 100px;
+    }
+
+    80% {
+        -webkit-transform: scale3d(0.97, 0.97, 0.97);
+        transform: scale3d(0.97, 0.97, 0.97);
+        left: 65px;
+        top: 80px;
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        left:70px;
+        top: 100px;
+    }
+}
+    
+    @keyframes move {
+      from { left: 0; }
+      to   { left: 300px; }
+    }
+    @keyframes fadeOut {
+      from { opacity: 1; }
+      to   { opacity: 0; }
+    }
+    @keyframes changeColor {
+      from { background-color: red; }
+      to   { background-color: blue; }
+    }
+  </style>
+</head>
+<body>
+  <div></div>
+  <div></div>
+</body>
+</html>
